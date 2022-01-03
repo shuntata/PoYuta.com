@@ -1,0 +1,160 @@
+/*
+http://monokai.9x4.net/
+このサイトでmonokaiテーマのカラーを確認できるよ
+*/
+
+body {
+  color: #1E1E1E;
+}
+
+
+
+li {
+  list-style: none;
+
+}
+
+.header {
+
+  color: #fff;
+  background-color: #19c3d2;
+  height: 90px;
+}
+
+
+.header-logo {
+  color: #fff;
+  float: left;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list ul {
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+  background-color: 	#E6E6E6;
+  height: 7000px;
+}
+
+.copy-container h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 140px;
+  padding: 20px;
+}
+
+.copy-container h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 60px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #B0C4DE
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 40px;
+  padding-left: 10px;
+  border-left: 5px solid #1E1E1E;
+}
+
+.contents h4 {
+  font-family: 'Noto Sans JP', sans-serif;
+
+  font-weight: lighter;
+  font-size: 30px;
+  padding-left: 10px;
+  margin-top: 150px;
+  border-left: 3px solid #1E1E1E;
+
+
+}
+
+.contents p {
+  font-size: 25px;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+}
+
+.pink {
+  color: #f92672;
+}
+
+.green {
+  color: #a6e22e;
+}
+
+.orange {
+  color: #fd971f
+}
+
+.blue {
+  color: #66d9ef;
+}
+
+.purple {
+  color: #ae81ff;
+}
+
+.yellow {
+  color: #e6db74;
+}
+
+.contents pre {
+  background-color: #272822;
+  border-radius: 10px;
+  border: 5px solid #5e5e5e;
+  margin-bottom: 60px;
+}
+
+.contents code {
+  font-family: 'Inconsolata', monospace;
+  font-size: 25px;
+
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 36px;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.footer-list {
+  float: right;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  font-size: 20px
+
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+}
