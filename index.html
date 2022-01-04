@@ -53,7 +53,7 @@
   </head>
   <body>
     <div class="header">
-      <div class="header-logo">PoYuta</div>
+      <div class="header-logo" ><a href="https://shuntata.github.io/PoYuta.com/">PoYuta</a></div>
       <div class="header-list">
         <ul>
           <li>文字の装飾</li>
@@ -73,30 +73,31 @@
 
      </div>
 
-    <div class="table of contents">
-     
-       <a class="table-main" href="#サイトの紹介">サイトの紹介</a>
-　　　　<a class="table-sub">コードの紹介の仕方</a>
-       <a class="table-main">文字の装飾</a>
-       <a class="table-sub">色の変え方</a>
-       <a class="table-sub">色指定について</a>
-       <a class="table-sub">文字の太さ</a>
-       <a class="table-sub">文字の大きさ</a>
-       <a></a>
-     
+    <div class="table-of-contents">
+     <h3>目次</h3>
+     <ul>
+       <li><a class="table-main" href="#a1">1.サイトの紹介</a></li>
+       <li><a class="table-sub" href="#a2">　1.コードの紹介の仕方</a></li>
+       <li><a class="table-main" href="#a3">2.文字の装飾</a></li>
+       <li><a class="table-sub" href="#a4">　1.色の変え方</a></li>
+       <li><a class="table-sub" href="#a6">　3.文字の太さ</a></li>
+       <li><a class="table-sub" href="#a7">　4.文字の大きさ</a></li>
+
+     </ul>
+
 
 
 
    </div>
 
       <div class="contents">
-
-           <h3 id="#サイトの紹介">サイトの紹介</h3>
+<a name="a1"></a><br><br>
+           <h3>サイトの紹介</h3>
 
 
        <p>このサイトはサイトを作る練習をかねた、簡単なコードを画像を見て確認することができるサイトです。
        </p>
-
+<a name="a2"></a>
          <h4>コードの紹介の仕方</h4>
 
 
@@ -110,9 +111,10 @@
    }
 </code>
 </pre>
-
+<a name="a3"></a><br><br>
     <h3>文字の装飾</h3>
     <p>次は文字にいろいろな装飾を加える方法です。</p>
+    <a name="a4"></a>
     <h4>色の変え方</h4>
     <p>色を変える方法は主に2つあり、1つ目はcssで<span>color</span>を使う方法です。
     もう1つは、htmlのほうで&lt;<span>font</span>&gt;を使う方法もあります。<br><br><br>
@@ -134,13 +136,13 @@
   &lt;/<span class="pink">h1</span>&gt;
 </code>
 </pre>
-
+<a name="a5"></a>
   <h4>色指定について</h4>
 <p>色の指定は#の後ろにつく6桁の色コードで指定できます。例：黒=#000　白=#fff<br><br>
 下のサイトは自分の使いたい色を細かく設定してそれを色コードに変換してくれる優れものです！！<br><br>
 <a href="https://itsakura.com/html-color-codes">https://itsakura.com/html-color-codes</a><br>
 </p>
-
+<a name="a6"></a>
 <h4>文字の太さ</h4>
 <p>文字の太さは<span class="blue">font-weight</span>を使います。太くしたいなら
   <span class="blue">bold</span>で細くしたいなら<span class="blue">lighter</span>を使います。</p>
@@ -153,7 +155,8 @@
 </code>
 </pre>
 
-<h4>文字の大きさ</h4>
+<a name="a7"></a>
+<h4 id="#a7">文字の大きさ</h4>
 <p>文字の大きさは<span class="blue">font-size</span>で、<span class="purple">数字</span><span class="pink">px</span>で指定できます。<br><br>
   コードは次の通りです。今回は<span class="purple">20</span><span class="pink">px</span>でコードを書いてます。
 </p>
