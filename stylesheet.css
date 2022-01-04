@@ -3,6 +3,10 @@ http://monokai.9x4.net/
 このサイトでmonokaiテーマのカラーを確認できるよ
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #1E1E1E;
 }
@@ -15,28 +19,42 @@ li {
 }
 
 .header {
-
+  position: fixed;
+  height: 80px;
+  width: 4000px;
+  top: 0.1px;
+  left: 0.1px;
   color: #fff;
-  background-color: #19c3d2;
-  height: 90px;
+  background-color: rgba(34, 49, 52, 0.9);
+
 }
 
+.header a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
 
 .header-logo {
   color: #fff;
   float: left;
   font-family: 'Signika Negative', sans-serif;
   font-size: 36px;
-  padding: 20px 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-right: 150px;
 }
 
 .header-list ul {
   font-family: 'Sawarabi Gothic', sans-serif;
+  padding-bottom: 500px;
 }
 
 .header-list li {
   float: left;
-  padding: 33px 20px;
+  padding: 25px 20px;
+  padding-top: 15px;
 }
 
 .main {
@@ -61,6 +79,81 @@ li {
 .copy-container span {
   color: #ff4a4a;
 }
+
+
+/*
+.table-of-contents a {
+  text-decoration: none;
+  color: #1E1E1E;
+    font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+}
+
+.table-of-contents p {
+
+}
+
+.table-main li {
+  cursor: pointer;
+  color: #1E1E1E;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.table-sub li {
+  cursor: pointer;
+  color: #1E1E1E;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+}
+*/
+
+.table-of-contents {
+  border: solid 5px #B0C4DE;
+  border-radius: 3px;
+  padding-left: 40px;
+
+  padding-bottom: 20px;
+}
+
+.table-of-contents {
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+
+.table-of-contents h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 40px;
+  padding-left: 10px;
+  border-left: 5px solid #1E1E1E;
+
+}
+
+.table-main:hover {
+  border-bottom: solid 1px #1E1E1E;
+  opacity: 0.7 ;
+}
+
+.table-sub:hover {
+  border-bottom: solid 1px #1E1E1E;
+  opacity: 0.7 ;
+}
+
+.table-main  {
+  text-decoration: none;
+  cursor: pointer;
+  color: #1E1E1E;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+}
+
+.table-sub  {
+  text-decoration: none;
+  cursor: pointer;
+  color: #1E1E1E;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+}
+
 
 .contents h3 {
   font-family: 'Noto Sans JP', sans-serif;
